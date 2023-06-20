@@ -1,0 +1,14 @@
+server:
+  port: 8086
+spring:
+  application:
+    name: MSE-APPLICATION
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: 141199
+    url: jdbc:mysql://localhost:3306/STA
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
